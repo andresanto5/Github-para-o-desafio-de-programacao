@@ -14,10 +14,6 @@ def extNum(elem, tam2):
 		tam2+=1
 	return tmp
 
-def anagramaPerfeito(palavra):
-	for letra in range(len(palavra)-1,-1,-1):
-		return (palavra[letra])
-
 tmp2 = []
 
 for i in range(len(palavra)):
@@ -26,9 +22,6 @@ for i in range(len(palavra)):
 cont =0
 l=[]
 sortedTmp =[]
-sorted2 = []
-tmp3 = []
-contador = 0
 for i in tmp2:
 	for j in i:
 		sortedTmp.append("".join(sorted(j)))
