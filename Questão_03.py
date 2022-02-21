@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-palavra = 'ovo'
+palavra = 'ifailuhkqq'
 
 def extNum(elem, tam2):
 	tmp=[]
